@@ -26,6 +26,7 @@ var getCarro = function(posiscao, qtd){
     return carros.splice(posiscao,qtd)
 }
 
+//transe item do array 
 //var NovoCarros = getCarro(1, 2);
 //console.log(NovoCarros);
 
@@ -34,7 +35,7 @@ console.log(NovoCarros);
 
 var carro = NovoCarros[1];
 console.log(carro);
-]
+
 NovoCarros.forEach(function (item, index){
     console.log(index,item)
 })
